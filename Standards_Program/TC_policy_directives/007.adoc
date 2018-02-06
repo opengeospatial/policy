@@ -1,0 +1,4 @@
+The following Warning SHALL be shown on the cover page of a Best Practice:
+
+[quote,]
+This document defines an OGC Best Practices on a particular technology or approach related to an OGC standard. This document is not an OGC Standard and may not be referred to as an OGC Standard. It is subject to change without notice. However, this document is an official position of the OGC membership on this particular technology topic.

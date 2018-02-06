@@ -1,0 +1,4 @@
+All SWGs will be persistent.  If a SWG disbands (becomes inactive), then the originating DWG must be responsible for the Standard associated with the SWG.  A responsible party for the Standard must be persistent.
+
+[NOTE]
+SWG persistence is now codified in the TC Policies and Procedures section 7.7.1.2.

@@ -1,0 +1,10 @@
+All OGC standards documents SHALL use the following terminology as defined in Subclause 5.3 of [OGC 06-121r9] "OGC Web Services Common Standard 2.0 <http://portal.opengeospatial.org/files/?artifact_id=38867>, which is based on the ISO/IEC Directives, Part 2: Rules for the structure and drafting of International Standards.
+
+1. SHALL – verb form used to indicate a requirement to be strictly followed to conform to this standard, from which no deviation is permitted
+2. SHOULD – verb form used to indicate desirable ability or use, without mentioning or excluding other possibilities
+3. MAY – verb form used to indicate an action permissible within the limits of this standard
+4. CAN – verb form used for statements of possibility
+5. INFORMATIVE – a part of a document that is provided for explanation, but is not required
+6. NORMATIVE – a part of a standards document that is required
+
+Note: Other standards organizations also use the term “MUST.”  For the work of the OGC, the term MUST is equivalent to the term SHALL. Also, when the term “SHALL” is used in an OGC document, it SHALL be capitalized.

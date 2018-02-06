@@ -1,0 +1,4 @@
+The following wording SHALL be incorporated in the preface of any Member approved OGC Implementation Standard:
+
+[quote,]
+Suggested additions, changes and comments on this standard are welcome and encouraged. Such suggestions may be submitted using the online change request form on OGC web site: http://portal.opengeospatial.org/public_ogc/change_request.php

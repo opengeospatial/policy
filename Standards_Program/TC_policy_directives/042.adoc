@@ -1,0 +1,1 @@
+Springer LNCS is the OGC document citation type.

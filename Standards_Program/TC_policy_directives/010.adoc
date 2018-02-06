@@ -1,0 +1,21 @@
+Conformance language (use of MUST / SHALL / SHOULD etc.) and conformance assessment assume that the primary language of a standard will be some natural language--English, French, and so on.  This is sometimes referred to as "narrative" (or just "text") as opposed to tables, figures, schemas, etc., and the portion of it that specifies requirements (by the use of SHALL/ SHOULD / MAY) is called "normative text."  In OGC standards, for example, the mark of a mandatory requirement is the presence of the word SHALL in a sentence.  If a document consists entirely of descriptive text, tables, figures, and equations, without any SHALL statements, that document cannot be a standard because it doesn't specify any requirements, and therefore there is nothing that an implementation can claim conformance to.  Such documents are typically called "technical reports," "best practices," or other such, depending on the organization that publishes them.  They "describe" something rather than "specify" something.
+
+The above implies that a standard cannot consist only of a schema, with no normative text surrounding it.  Likewise, a standard cannot consist exclusively of a data dictionary with no normative text surrounding it. (The presence of a few SHALLs inside the data dictionary is not sufficient to that effect.)
+
+However, it is clearly useful to be able to specify a subset of the requirements by using a formal language (e.g., UML, ASN.1, XML Schema, SDL) or some ad-hoc formalism or semi-formalism (e.g., a table or a data dictionary).  There is no doubt that, in many cases, the use of formal languages or tables and other editorial artifacts can make a standard much easier to read and can help prevent mistakes.
+
+The key is that each instance of use of a formalism has to be wrapped in normative text in some way.  For example:
+
+* a fragment of XML Schema has to be preceded by a sentence in English containing a SHALL (e.g., "the element <abcd> SHALL have the type <xyz> specified as follows:," followed by a type definition in XSD);
+
+* a normative table has to be preceded by one or more paragraphs of normative text saying that something SHALL be (or SHALL be done) according to that table, and specifying precisely what the table means and how it is to be used;
+
+* a portion of a data dictionary (comprising one or more entries) has to be preceded by one or more paragraphs of normative text saying that something SHALL be (or SHALL be done) according to those data dictionary (entries), and specifying precisely what the dictionary entries mean and how they are to be used.
+
+The normative text that "wraps" the formalism does two things:  it specifies the meaning of the formalism (which is not needed if the formalism is well-known), and delegates its normative status to the embedded formal artifact.
+
+This will create a complete path from the Conformance section of the standard down into the formal or semiformal standard, granting the appropriate normative status to everything that is intended to be a requirement, in whatever language or notation it is expressed (English, UML, XML Schema, ASN.1, table, data dictionary entry, etc.).
+
+So it is very important that the formalism be specified extremely well.  It is very important to avoid both ambiguity and redundancy, which can easily occur when using a semi-formal standard.  In a semiformal standard, it must be very clear which portions are normative and which are informative, and among the normative portions, which ones are to be interpreted as SHALLs, which ones are to be interpreted as SHOULDs, and which ones are to be interpreted as MAYs.
+
+If all these things are not done properly, it will be impossible to tell what it means for an implementation to conform to the standard, or it will be impossible to test conformance.

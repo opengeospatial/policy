@@ -1,0 +1,25 @@
+All titles shall start with “OGC®.” All titles for an OGC standard SHALL include the standard type; i.e.: interface, encoding, application schema, or extension. All titles shall be 2 lines. The second line shall include the standard type (Encoding, Interface, Application Schema, Profile, etc.) and the word “Standard.”  For example, the correct titles for the Web Map Service and Geography Markup Language standards are:
+
+[quote,]
+____
+OGC® Web Map Service 1.3
+
+Interface Standard
+____
+
+[quote,]
+____
+OGC® Geography Markup Language 3.3
+
+Encoding Standard
+____
+
+Typing and reading long titles is not always optimal. Therefore, the PC also approved a standard approach for a short form for the names of OGC standards. For WMS and GML, the correct abbreviations are:
+
+[quote,]
+OGC WMS *or* OGC WMS 1.3
+
+[quote,]
+OGC GML *or* OGC GML 3.2.1
+
+Please observe these naming rules in all OGC documents and Member organization marketing and product materials.

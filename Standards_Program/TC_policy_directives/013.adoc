@@ -1,0 +1,21 @@
+The TC agreed that a GML application schema document conforming to one or more GML Profiles SHALL provide an appInfo annotation element <gml:gmlProfileSchema> for every profile in the root schema document <schema> element where the value is a schema location of the profile schema. Note that an application schema may conform to multiple profiles. Example:
+
+[source,xml]  
+<schema>
+...
+ <annotation>
+  <appInfo>
+   <gml:gmlProfileSchema>http://schemas .opengis.net/gml/3.1.1/profiles/gmlSimpleFeatureProfile/1.0.0/gmlsf.xsd</gml:gmlProfileSchema>
+   <gml:gmlProfileSchema>http://schemas .opengis.net/gml/3.1.1/profiles/gmlPointProfile/1.0.0/gmlPointProfile.xsd</gml:gmlProfileSchema>
+  </appInfo>
+ </annotation>
+...
+</schema>
+
+- Define the  <gml:gmlProfileSchema> element in the GML Schema as:
+
+[source,xml]
+<element name="gmlProfileSchema"
+ type="anyURI"/>
+
+The discussion then broadened to OGC profiles in general. The agreement is that any OGC application schema document conforming to one or more Profiles SHALL provide an appInfo annotation element for every profile in the root schema document <schema> element where the value is a schema location of the profile schema.As a result, the TC also decided that OGC Application Schema documents SHALL directly (or primarily) reference the location of the complete GML Schema, not the profile XML Schema.  Furthermore, an OGC Application Schema document shall also be valid when it is modified to directly reference the profile XML Schema(s) that it uses.

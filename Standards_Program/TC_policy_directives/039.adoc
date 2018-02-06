@@ -1,0 +1,1 @@
+There should be only one SWG for any Standard, regardless of the Standard version. Therefore, SWGs are no longer approved to work on a specific version of a standard, but to persist through versions. Rechartering may be necessary at times.

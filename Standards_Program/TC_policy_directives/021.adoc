@@ -1,0 +1,9 @@
+Bug fixes SHALL NOT be reflected in the XML namespace. In XML implementations described using W3C XML Schema, the bug fix number SHALL be recorded in the xsd:schema/@version attribute.  The version SHALL use the complete Major.Minor.Bugfix version number as the version attribute.
+
+[NOTE]
+The XML namespace combined with the value of schema/@version uniquely identify the XML schema
+
+EXAMPLE: If there were a 3rd bugfix revision of the XML implementation of the schema with the namespace "http://www.opengis.net/om/1.2" the <schema> element should contain the following:
+
+[source,xml]
+<xsd:schema targetNamespace="http://www.opengis.net/om/1.2" … version="1.2.3"> …

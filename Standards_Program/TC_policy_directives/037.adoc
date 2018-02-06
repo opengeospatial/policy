@@ -1,0 +1,8 @@
+The default for DWGs will be public (also known as “open”).
+
+Explanatory text: all DWG activities settings such as access to e-mail lists, portal files, and meetings should initially be set to be public.  A DWG can vote to be closed, once established.
+
+Existing closed DWGs shall be grandfathered at their current status and give six (6) months to object to being changed to public.
+
+[NOTE]
+Public DWGs by default are now codified in the TC Policies and Procedures section 4.2.1.

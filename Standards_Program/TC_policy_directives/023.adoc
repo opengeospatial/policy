@@ -1,0 +1,10 @@
+For all OGC XML schemas, when writing a candidate standard and when publishing that standard, one XML schema document SHALL be provided that includes, either directly or indirectly, all of the components defined and declared in the namespace for that XML schema (the "all-components" document). This "all-components" XML schema document for each XML schema SHALL be clearly identified in the document file name.
+
+EXAMPLE: The "all-components" XML schema document for GML is named gml.xsd, and for OWS Common is named owsAll.xsd.
+
+Whenever an XML schema published by the OGC has dependencies on another OGC XML schema, a single XML schema document that provides access to the full namespace SHALL be referenced by the dependent XML schema. The "all-components" XML schema document SHALL be referenced by an <import> statement in each XML schema document that uses any component of that referenced XML schema.
+
+Where a schema for a single namespace is broken into several schema documents, each document other than the all-components document SHALL <include> the all-components schema document.
+
+[NOTE]
+this ensures that any reference to any schema document in the OGC repository will automatically get all components for the namespace, according to OGC’s schema publication policy . Also, be aware that when a new component/extension is added, you will need a new all components schema in a new namespace.

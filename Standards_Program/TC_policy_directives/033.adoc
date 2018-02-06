@@ -1,0 +1,10 @@
+1. OGC Technical and Planning Committees directs the OGC-Naming Authority that all new OGC identifiers issued for persistent public OGC resources shall be http URIs, instead of URNs;
+
+2. New standards and new major versions of existing standards shall use http URIs for persistent public OGC resources to replace OGC URN identifiers defined in previous standards and versions, unless the OGC-NA approves an exception.
+
+There is an associated OGC White Paper  that provides the research, justification for, and examples of this policy. An example of the structure if an OGC http URI for a CRS is:
+
+http://www.opengis.net/def/crs/EPSG/0/4326
+
+Notice that the structure is very similar to that of an OGC URN string. The corresponding OGC URN would be:
+urn:ogc:def:crs:EPSG::4326

@@ -1,0 +1,35 @@
+An XML Schema that implements a minor revision of a standard SHALL incorporate all prior revisions of the same major version by importing the all-components schema document for each previous revision. An XML Schema that implements a minor revision of a standard SHALL NOT re-implement components from any prior revisions of the same major version in a new namespace.
+
+[NOTE]
+.NOTE 1
+This is required in order to satisfy the compatibility requirements described in Clause 13.2, the namespace rules described in Clause 13.3, and the schemaLocation rules described in Clause 15.
+
+[NOTE]
+.NOTE 2
+The various versions of GML through GML 3.2 do not follow this rule, which was established after GML 3.1 was published.
+
+EXAMPLE Consider an OGC standard with the abbreviation WXX. For the initial major version, the all-components schema document wxx.xsd would start as follows:
+
+[source,xml]
+<xsd:schema targetNamespace="http://www.opengis.net/wxx/1.0" … version="1.0.0">
+...
+The first bugfix for this version would start:
+<xsd:schema targetNamespace="http://www.opengis.net/wxx/1.0" … version="1.0.1">
+...
+The first minor revision of this version would start:
+<xsd:schema targetNamespace="http://www.opengis.net/wxx/1.1" … version="1.1.0">
+ <xsd:import namespace="http://www.opengis.net/wxx/1.0" schemaLocation="http://schemas.opengis.net/wxx/1.0/wxx.xsd">
+<!-- new type definitions and global element declarations -->
+...
+The second minor revision of this version would start:
+<xsd:schema targetNamespace="http://www.opengis.net/wxx/1.2" … version="1.2.0">
+ <xsd:import namespace="http://www.opengis.net/wxx/1.0" schemaLocation="http://schemas.opengis.net/wxx/1.0/wxx.xsd">
+ <xsd:import namespace="http://www.opengis.net/wxx/1.1" schemaLocation="http://schemas.opengis.net/wxx/1.1/wxx.xsd">
+<!-- new type definitions and global element declarations -->
+...
+The first bugfix for the second minor revision of this version would start:
+<xsd:schema targetNamespace="http://www.opengis.net/wxx/1.2" … version="1.2.1">
+ <xsd:import namespace="http://www.opengis.net/wxx/1.0" schemaLocation="http://schemas.opengis.net/wxx/1.0/wxx.xsd">
+ <xsd:import namespace="http://www.opengis.net/wxx/1.1" schemaLocation="http://schemas.opengis.net/wxx/1.1/wxx.xsd">
+<!-- new type definitions and global element declarations -->
+...

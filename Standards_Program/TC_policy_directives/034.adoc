@@ -1,0 +1,5 @@
+The OGC shall follow the XLink guidance as defined in the W3C XLink 1.1 recommendation <http://www.w3.org/TR/xlink11/>
+
+Therefore, going forward, OGC standards shall reference the W3C xlink.xsd and not the OGC xlink.xsd (namespace xlink = "http://www.w3.org/1999/xlink"). W3C approved XLink 1.1 in 2010. They updated the xlink.xsd but kept the schema name and location the same.
+
+This policy went into full effect in July 2012.

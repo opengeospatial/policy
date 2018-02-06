@@ -1,0 +1,20 @@
+Where XML encoding is used, "compatibility" is evaluated at the XML instance document level.  A new version of a schema SHALL be deemed to be "backward compatible" if all instance documents that were valid according to a previous version are valid according to the new version.
+
+Applying this criterion to the versioning policy leads to the following practice for designing XML implementations:
+
+A major revision of an XML implementation MAY use XML components from previous versions.
+
+[NOTE]
+.NOTE 1
+Any incompatible change to the definition of an existing component requires a major revision.
+A minor revision of an XML implementation SHALL incorporate all XML components from previous minor revisions of the same major version, using their original namespace. A minor revision MAY add new XML components.
+
+[NOTE]
+.NOTE 2
+The mechanism for constructing an XML Schema implementation for minor revisions is described in clause 16.
+
+[NOTE]
+.NOTE 3
+GML 3.2 uses a different namespace than GML 3.1 for all components. Using the test described in this sub-clause GML 3.2 is not backward compatible with GML 3.1. Thus, notwithstanding the version number, GML 3.2 is a major revision compared to GML 3.1. The error in designation pre-dates the clarification of OGC Standards Best Practice described in this document.
+
+A bug fix revision of an XML implementation SHOULD NOT add new XML attributes or elements.

@@ -1,0 +1,46 @@
+Schema locations appear within XML implementations in three places:
+
+(i) the @xs:schemaLocation attribute on <xs:include> elements within XML schema documents
+
+* this indicates the location of a document containing definitions of  schema components whose xs:schema/@targetNamespace value is the same as the including document. I.e. this controls inclusion of components in the same namespace, implicitly under the same governance arrangements.
+
+(ii) the @xs:schemaLocation attribute on <xs:import> elements within XML schema documents
+
+* this indicates the location of a document containing definitions of  schema components whose xs:schema/@targetNamespace value differs from the including document. I.e. this controls import of components from another namespace, generally under separate governance arrangements.
+
+(iii) the @xsi:schemaLocation attribute on elements within XML instance documents
+
+* this indicates the location of a document containing definitions of  components for the associated namespace.
+
+Maximum portability of XML documents (both schemas and instances) is enabled by applying the following pattern to schemaLocation values:
+
+Case (i) – inclusion of components in the same namespace – relative path to local address (allows a schema factored into multiple documents to be packaged easily)
+
+EXAMPLE – Within the Sampling features schema, samplingBase.xsd includes surveyProcedure.xsd using a relative path to a location in the same directory
+
+[source,xml]
+ <include schemaLocation="./surveyProcedure.xsd"/>
+
+Case (ii) – import of components from an independently governed namespace – absolute path to canonical location of all-components schema document (see clause 14)
+
+EXAMPLE – Within the Sampling features schema, samplingBase.xsd imports the Observations schema by reference to the canonical location of the all-components document om.xsd
+
+[source,xml]
+ <import
+  namespace="http://www.opengis.net/om/1.0"
+  schemaLocation="http://schemas.opengis.net/om/1.0/om.xsd"/>
+
+Case (iii) – pointer to source of definitions - absolute path to canonical location of all-components schema document
+
+EXAMPLE – Within an instance document describing a specimen, the namespace is bound to the all-components document for Sampling Features sampling.xsd
+
+[source,xml]
+<sa:Specimen gml:id="pr1_s2"
+ xmlns:sa="http://www.opengis.net/sampling/1.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:gml="http://www.opengis.net/gml"
+                xsi:schemaLocation="http://www.opengis.net/sampling/1.0
+                http://schemas.opengis.net/sampling/1.0/sampling.xsd">
+ …
+</sa:Specimen>

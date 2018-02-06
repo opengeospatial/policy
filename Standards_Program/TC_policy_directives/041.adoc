@@ -1,0 +1,1 @@
+The term “Draft” will be used for the initial phase of a document moving through the full RFC standards track.

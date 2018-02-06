@@ -1,0 +1,6 @@
+Approved OGC Standards can have associated Profiles, Application Schemas, and Application Profiles. These associated Profiles, Application Schemas, and Application Profiles can be submitted to the OGC for consideration as candidates for approval as formal OGC implementation standards. For example, there have been a number of Profiles and Application Schemas developed for GML. Some of these, such as the GML Simple Features Profile, have gone through the formal approval and adoption process. Below are the definitions for Profiles, Application Schemas, and Application Profiles (from the TC Policies and Procedures, Annex A).
+
+The following are definitions for Profile and Application Schema. They are derived from ISO 19109.
+* A profile is a strict subset of a Standard applicable to multiple Application Schemas. An example of a profile is the GML Simple Feature Profile.
+* An application schema utilizes an Implementation Standard and adds application specific entities, e.g., feature types. An example of an application schema is LandGML or CityGML.
+* An Application Profile is a profile of an OpenGIS interface standard, such as for Catalogue.

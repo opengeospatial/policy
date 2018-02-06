@@ -1,0 +1,1 @@
+In any OGC position document (standard or Best Practice), the “Terms and Definitions” will include the definition from the “ISO / TC 211 Multi-Lingual Glossary of Terms” for any term in that glossary. The OGC document may include additional notes to further define or explain the context of the term.

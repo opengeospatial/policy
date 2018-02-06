@@ -1,0 +1,1 @@
+Any OGC standard that defines an XML grammar shall include a normative clause indicating the MIME-type(s) to be used, and sub-types if applicable.

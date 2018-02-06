@@ -1,0 +1,15 @@
+The guidelines for versions of OGC documents are provided in the OGC TC Policies and Procedures clause 8.7.2. A three-level version pattern is used, where major, minor, and corrigendum (bug-fix ) versions are specified using integers, separated by periods.
+
+[NOTE]
+major.minor is not a decimal number. Version 0.9 is not "almost 1.0" and may be succeeded by version 0.10, 0.11, 0.12 etc on the road to version 1.0.
+
+A compatible revision does not change the meaning of any name or term used in the previous version of an OGC standard, including in all text, XML, and other documents which are part of that standard.
+
+A major revision need not be backward compatible with previous major versions.
+
+A minor revision is backward compatible with previous versions with the same major version designation. The initial version of a major revision has minor version=0 and bug fix version=0.
+
+A corrigendum is used to correct errors in previous versions with the same major.minor version designation. The version attribute shall use the complete Major.Minor.Corrigendum version number initially set at 0 and shall be incremented after each bug fix (i.e., version="3.2.1" for the first bug fix of the 3.2 version).
+
+[NOTE]
+There is no precise definition of "bug." It refers to an inadvertent error in the implementation, where it deviates from the intention expressed in the prose of the specification document, or is technically invalid for some reason, but may encompass other kinds of error. A judgement from the document editor and OGC technical committee chair is required to determine if a proposed revision may be deemed a "bug-fix" or corrigendum. Bug-fix revisions may not be backward compatible, and in general will not be since there was judged to be an error in the previous version. However, a bug-fix revision should not be used as a back door to add new features.

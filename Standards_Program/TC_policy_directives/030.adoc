@@ -1,0 +1,8 @@
+Compatibility with content-negotiation mechanisms provided by the http protocol requires a MIME-type to be registered for each distinct encoding. IANA registration accepts MIME-type description included in standards published by other organizations provided they generally follow the IANA template.
+
+Therefore, each OGC encoding standard shall
+
+* Add IETF RFC 4288 'Media Type Specifications and Registration Procedures' as a normative reference.
+* Include a MIME-type specification shall be included as a separate clause in every OGC encoding standard.  The clause containing the MIME-type specification shall contain the headings taken from the IANA Application for Media Type application http://www.iana.org/cgi-bin/mediatypes.pl
+
+For XML encodings, an OGC MIME type should follow the pattern application/xxxxxx+xml

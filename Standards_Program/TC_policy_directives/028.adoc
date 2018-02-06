@@ -1,0 +1,6 @@
+Initially in 2006, the OGC Planning Committee approved a motion stating that OASIS ebRIM is the preferred application profile metadata for all future CSW application profiles. Due to some ambiguity in the guidance, in September 2009, the PC modified and approved the following:
+
+* That OASIS ebRIM be adopted as the preferred (cataloguing) meta-model for future OGC CS-W Catalogue Application Profiles
+* With regard to the ebRIM meta-model, an Application Profiles as understood in the CSW context is defined to mean an extension package of ebRIM
+* Interoperability issues between ISO Metadata AP and ebRIM AP need to be harmonized.
+* The existing ISO Metadata Application Profile is not deprecated.

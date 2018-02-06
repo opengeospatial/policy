@@ -1,0 +1,5 @@
+A single format for stating requirements is approved for standards (provided in latest standard template, Example A in previous template).
+
+Each requirement shall be numbered, initially in sequence.
+
+For a revision to a standard, all unchanged requirements retain the same number. Deleted requirements have numbers which are deleted and not to be reused. New requirements take the next available number at the end of the sequence, even if inserted between existing, consecutive requirements.

@@ -1,0 +1,4 @@
+The following Warning SHALL be shown on the cover page of a Discussion Paper:
+
+[quote,]
+This document is not an OGC Standard. This document is an OGC Discussion Paper and is therefore not an official position of the OGC membership. It is distributed for review and comment. It is subject to change without notice and may not be referred to as an OGC Standard. Further, an OGC Discussion Paper should not be referenced as required or mandatory technology in procurements.

@@ -1,0 +1,12 @@
+The following standard copyright wording SHALL be inserted in all OGC published schema documents:
+
+[source,xml]
+<documentation>
+  [XXX] is an OGC  Standard
+  Copyright (c) [YEAR] Open Geospatial Consortium
+  To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+</documentation>
+
+Note: If the OGC standard is also an ISO standard, add the clause that the document is also an “ISO standard”.
+
+Note: Any schema published outside the OGC process using OGC schema should also include this copyright notice."

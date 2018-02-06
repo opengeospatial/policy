@@ -1,0 +1,1 @@
+If there is a public GitHub repository or other public sandbox being used to develop a draft standard, there shall be a ReadMe that clearly states that the work is in progress, draft, under construction, or a set of suitable phrases. The reader needs to understand that the work is in progress and IS NOT an official OGC standard.

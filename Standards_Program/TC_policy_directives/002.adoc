@@ -1,0 +1,12 @@
+All OGC documents that are in the categories of Best Practices, candidate or adopted Implementation Standards, Implementation Standard Profiles, Implementation Standard Application Profiles, and Implementation Standard Application Schemas SHALL use the following copyright:
+
+[quote,]
+Copyright © <YEAR> Open Geospatial Consortium
+To obtain additional rights of use, visit http://www.opengeospatial.org/legal/.
+
+This copyright SHALL be displayed on all title pages of all OGC documents except as noted below. Further, the following statement must be displayed in the footer of any OGC document:
+
+[quote,]
+Copyright © <YEAR> OGC.
+
+All OGC Discussion Papers that have been approved for Public Release SHALL also use this official OGC Copyright unless there are circumstances in which a shared copyright is required. In these cases, the document Author/Editor SHALL discuss the copyright requirements for that specific document with the Technical Committee Chair (TCC).

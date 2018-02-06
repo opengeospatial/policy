@@ -1,0 +1,12 @@
+Going forward, all future revisions of existing and all new OWS (including OLS) interface standards:
+
+1. SHOULD include an optional SOAP (messaging) binding and
+2. SHOULD express that binding in WSDL.
+
+Exceptions may only be granted through appeal to the OAB. The process will be to write a short argument as to why a SOAP binding is not required for a given implementation standard. The argument might document specific market requirements or technology constraints. For example, a given implementation environment might not support SOAP or there are bandwidth restrictions.
+
+In order to insure that all OGC WS standards use a consistent approach, the recommendation also included the requirement for OWS Common to describe a consistent pattern for SOAP/WSDL bindings on OGC interface standards
+
+For the foreseeable future, OGC will maintain existing GET and POST bindings. Further, there is considerable work being done in the OGC OWS Common community on defining a consistent pattern for SOAP binding. Further, please note that SOAP can be thought of as another POST binding. The membership should consider joining into that activity so that we can define a common and consistent pattern for implementing SOAP bindings for relevant OGC W*S interface standards.
+
+Valid in 2006: The PC recommends not using the 2.0 version of WSDL as there are numerous unresolved issues with 2.0.

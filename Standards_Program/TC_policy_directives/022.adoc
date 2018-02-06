@@ -1,0 +1,51 @@
+The OGC schema repository provides a canonical location for each XML implementation of OGC standards. The location may be used in a schemaLocation attribute in XML instance documents containing elements and attributes declared in OGC XML schemas, and in XML schema documents that import an OGC XML schema. This supports online validation and allows applications to verify which implementation they are using. XML implementations for validation purposes SHALL be provided in perpetuity.
+
+The XML Namespace provides the primary key for a specific implementation. The W3C recommendation that defines XML Schema describes several alternative strategies for resolving namespaces when validating documents. An analysis of these strategies has shown that for all processors to get the same outcome, the schema location must also be treated as canonical, as discussed in [OGC05-063r5]. Hence, in order to robustly support long-term use of OGC XML standards, the repository must provide a persistent location for every implementation with a different namespace, i.e. every major and minor version.
+
+In order to support transparency the repository must also provide access to every bug fix version. However, since bug fix revisions use the same namespace within a minor version, in order to discourage the use of superseded versions, bug fix versions prior to the most recent one ought not to be available for online validation. These requirements are met by having all bug fix versions available as compressed archives, with the most recent also available for online validation at the canonical location for its namespace.
+
+The structure of the OGC schema repository ought to reflect the same considerations used in designing XML namespaces: i.e., package label, major.minor version. There ought to be a directory for each package, within which there ought to be a directory for each major.minor version. Compressed archives of bug fix releases SHALL reside in the schema repository as siblings to the directories containing the minor versions.
+
+
+[NOTE]
+.NOTE 1
+There is no distinction made for standards and packages that are profiles or extensions of existing standards. A separate directory should be used for all cases, as a sibling of all the other independently versioned standards or packages. The rationale for this is that every standard is likely to have multiple dependencies, so while some may seem to be more closely related to existing standards, complete lineage cannot be indicated in the repository structure, and furthermore may change in future revisions.
+
+The structure of the repository can be described by example. Following these rules, the GML schemas issued by OGC prior to 2008-09-11 would be re-organized into the following structure:
+
+http://schemas.opengis.net/gml
+- 1.0 // unchanging 1.0.0 versions
+- 2.0 // unchanging 2.0.0 versions
+- 2.1 // contains 2.1.2 bugfix of the 2.1 schema
+- 2.1.1.zip
+- 2.1.2.zip
+- 3.0 // contains 3.0.1 bugfix of the 3.0 schema
+- 3.0.0.zip
+- 3.0.1.zip
+- 3.1 // contains 3.1.1 bugfix of the 3.1 schema
+- 3.1.0.zip
+- 3.1.1.zip
+- 3.2 // contains 3.2.1 bugfix of the 3.2 schema
+- 3.2.1.zip
+
+[NOTE]
+.NOTE 2
+In practice, since the repository existing prior to 2008-09-11 contains earlier bugfix versions in uncompressed format, and it is known that some implementations make reference to these locations, it is necessary that the current directories remain available.
+
+In the case of GML, the "all-components" schema document, as defined in clause 14 of this document, is called gml.xsd. Thus, the all-components schema document for the current bugfix implementation of the namespace http://www.opengis.net/gml/3.2 would be located at http://schemas.opengis.net/gml/3.2/gml.xsd.
+
+The scenario for the XML implementation of Observations and Measurements described in the namespace example (13.3.4) leads to the following structure:
+
+http://schemas.opengis.net/om
+- 1.0
+- 1.0.0.zip
+- 1.2
+- 1.2.0.zip
+...
+http://schemas.opengis.net/omx
+- 1.0
+- 1.0.0.zip
+- 1.1
+- 1.1.0.zip
+
+In the case of O&M the "all-components" schema document (clause 14) is called om.xsd. Thus, the all-components schema document for the current bugfix implementation of the namespace http://www.opengis.net/om/1.2 would be located at http://schemas.opengis.net/om/1.2/om.xsd

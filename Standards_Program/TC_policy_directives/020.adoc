@@ -1,0 +1,37 @@
+.1. Standard or package name
+
+An OGC standard may describe components or services in one or more packages, implemented using one or more XML namespaces.  Each package intended to be implemented separately SHALL be labeled with a short label, usually of 3- or 4 letters (clause 7). The XML namespace SHALL incorporate the label of the package in which the implemented components are defined.
+
+.2. Version designator
+
+The XML namespace can assist traceability from an XML implementation to its specification document. New components can be defined in major and minor revisions of a specification document. Hence, the XML namespace used in an implementation SHALL incorporate the major and minor version designation of the documents that contains the specification of the components implemented.
+
+A bug fix revision corrects but does not change the meaning of, or add any new functionality to an OGC standard or implementation of that standard. The bug fix version designator SHALL NOT appear in the XML namespace.
+
+.3. Pattern for namespace
+
+The pattern for an XML namespace used for XML implementation of an OGC standard is
+"http://www.opengis.net/{standard}/{major}.{minor}[/{reqclass}]"
+where:
+
+* {standard} denotes the standard or profile that defines this XML implementation
+* {major}.{minor} are the major and minor elements from the version designator of the standard or profile
+* {reqclass} denotes the requirements class implemented by this XML namespace.
+
+{reqclass} may be omitted if the standard or profile has a single requirements class and thus is implemented in a single XML namespace.
+
+Each of these elements should be consistent with the corresponding usage and tokens in the specification that defines this XML implementation, and with the OGC URIs that identify the relevant document and specification elements.
+
+This XML namespace pattern is consistent with the policy for OGC URIs for related resources.
+
+The use of only the major and minor version elements is consistent with the principle that the third number in a version designator designates bug-fix releases only, with no change of content, so users should only use the latest bug-fix version.
+
+OGC will arrange that the XML Namespace URI will resolve to an appropriate resource representation, typically the all-components schema document.
+
+.4. Namespace example (informative)
+
+Observations and Measurements (O&M) v1.0 describes components in two packages: Observations has the label OM, and Observation Extensions is labelled OMX (per OGC documents 07-022r1 and 08-022r1). These packages are implemented in XML as GML Application Schemas using GML 3.1.1 in namespaces that follow the pattern described in 13.3.3, viz. http://www.opengis.net/om/1.0 and http://www.opengis.net/omx/1.0.
+
+A minor revision of O&M v1.1 might add components to the Observation Extensions package. The GML 3.1.1 XML implementation would now use three namespaces corresponding to the document versions that contain the definitions of the components implemented: http://www.opengis.net/om/1.0, http://www.opengis.net/omx/1.0 and http://www.opengis.net/omx/1.1.
+
+A further minor revision O&M v1.2 might add components to the Observations package only, so the complete XML implementation would now use four namespaces: http://www.opengis.net/om/1.0, http://www.opengis.net/omx/1.0, http://www.opengis.net/omx/1.1 and http://www.opengis.net/om/1.2. Each namespace contains only components newly defined in the corresponding minor revision of the specification.  Thus, if a revision does not define new components in a package, there will be an apparent gap in the versioning sequence of the XML namespace.

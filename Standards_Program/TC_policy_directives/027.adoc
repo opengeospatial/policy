@@ -1,0 +1,17 @@
+As per section 9.11 of the OGC Technical Committee Policies and Procedures, a corrigendum is restricted to a bug fix to schema(s) and supporting standards document. There is a requirement for an immediate fix. When the corrigendum is published, there SHALL be No namespace change. The corrigendum shall be accompanied with a ReadMe file that describes the errors that were corrected. The information for the ReadMe file can be extracted from the Corrigendum document. Also, the version attribute on the schema element SHALL be used to signify that there has been a change. There will be no change to the version number of the actual documents.
+
+* Use x.x.x at the third level in the version attribute to signify a change using a corrigenda
+** There shall be no change in the location of the schemas.
+** A corrigendum shall replace the old schemas in their current location.
+
+For example, in the code below one could change version=”1.0.0” to version=”1.0.1”:
+
+[source,xml]
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+elementFormDefault="qualified"
+attributeFormDefault="unqualified"
+version="1.0.0">
+
+Please remember that the XML validator ignores the version attribute. Therefore, it is not an enforceable constraint.
+
+From an OGC Architecture motion approved in August 13, 2009, the published schema takes authority precedence over all other related documents.
