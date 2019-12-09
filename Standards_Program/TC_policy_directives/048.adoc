@@ -1,0 +1,1 @@
+All SWGs will be assigned to a host DWG per https://portal.opengeospatial.org/files/?artifact_id=90765&version=1[OGC 19-074]. Revision 28 of the TC Policies and Procedures will include a process for managing and assigning SWG-to-DWG relationships.
