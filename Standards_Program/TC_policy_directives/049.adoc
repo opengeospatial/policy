@@ -1,0 +1,28 @@
+Following a portion of the ISO/IEC Directives, Part 2, "Rules for the structure and drafting of International Standards," the following terms and definitions are used in OGC standards documents (per subclause 5.3 of http://portal.opengeospatial.org/files/?artifact_id=38867[OGC Web Services Common Standard] [OGC 06-121r9]):
+
+a) shall – verb form used to indicate a requirement to be strictly followed to conform to this specification, from which no deviation is permitted;
+
+p) should – verb form used to indicate desirable ability or use, without mentioning or excluding other possibilities;
+
+q) may – verb form used to indicate an action permissible within the limits of this specification;
+
+r) can – verb form used for statements of possibility;
+
+s) informative – a part of a document that is provided for explanation, but is not required;
+
+t) normative – a part of a standards document that is required;
+
+u) annex – an auxiliary part of a document, called an "appendix" in United States English;
+
+v) clause – a major part of a document, called a "section" or "paragraph" in United States English; and
+
+w) subclause – a secondary part of a clause or annex, called a "subsection" in United States English.
+
+ In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this standard.
+
+The following text is to appear in Clause 4 of OGC standards.
+
+[quote,]
+____
+This document used the terms defined in https://portal.ogc.org/public_ogc/directives/directives.php[OGC Policy Directive 49], which is based on the ISO/IEC Directives, Part 2, Rules for the structure and drafting of International Standards. In particular, the word “shall” (not “must”) is the verb form used to indicate a requirement to be strictly followed to conform to this standard and OGC documents do not use the equivalent phrases in the ISO/IEC Directives, Part 2.
+____
