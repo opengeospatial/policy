@@ -1,0 +1,9 @@
+This Policy Directive supersedes Policy Directive 47.
+
+All OGC API SWGs will work on their respective standards with other OGC API SWGs and the OWS Common SWG and report on the interaction with those SWGs to ensure coherence of the standard with respect to OGC Web API Guidelines and OGC API – Common, in advance of OAB RFC review.
+
+Part of the OAB review for an OGC API draft standard is to validate that it includes, in an associated informative document named “OGC Web API Guidelines,” the self-assessment by the SWG about the applicability of the OGC Web API guidelines. The template is to be filled out in full: each principle shall be addressed. In case a principle is not applicable a reason shall be given.
+
+The template for this self-assessment against OGC Web API Guidelines, resulting from the 2021-03-22 closed OAB meeting, is included in the https://github.com/opengeospatial/templates/tree/master/standard_template/standard[Github template for standards].
+
+Examples for this Annex are provided at https://github.com/opengeospatial/OGC-Web-API-Guidelines/tree/master/Examples.

@@ -1,3 +1,5 @@
+This Policy Directive is superseded by Policy Directive 50.
+
 All OGC API SWGs will work on their respective standards with other OGC API SWGs and the OWS Common SWG and report on the interaction with those SWGs to ensure coherence (with respect to OGC Web API Guidelines, OGC API - Common, and reusability of extensions) of standards in advance of OAB review. OAB will develop a template for the review. If the OAB determines that sufficient review has not taken place, the submitting SWG will be instructed to perform further review.
 
 OAB will deliver a template by the end of 2019. OGC API SWGs currently working will perform coherence review as described above over at least the time required to receive the template.
