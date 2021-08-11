@@ -1,0 +1,396 @@
+:Title: OGC Architecture Board (OAB) Policies and Procedures
+:titletext: OGC Architecture Board (OAB) Policies and Procedures
+:doctype: book
+:encoding: utf-8
+:lang: en
+:toc:
+:toc-placement!:
+:toclevels: 3
+:numbered:
+:sectanchors:
+:source-highlighter: pygments
+
+<<<
+[cols = ">",frame = "none",grid = "none"]
+|===
+|{set:cellbgcolor:#FFFFFF}
+|[big]*Open Geospatial Consortium*
+|Submission Date: YYYY-MM-DD
+|Approval Date:   YYYY-MM-DD
+|Publication Date:   YYYY-MM-DD
+|External identifier of this OGC(R) document: http://www.opengis.net/doc/pol/XXX
+|Internal reference number of this OGC(R) document:    06-030r13
+|Version: 13.0
+|Category: OGC(R) Policy
+|Editor:   Scott Simmons
+|===
+
+[cols = "^", frame = "none"]
+|===
+|[big]*{titletext}*
+|===
+
+[cols = "^", frame = "none", grid = "none"]
+|===
+|*Copyright notice*
+|Copyright (C) 2021 Open Geospatial Consortium
+|To obtain additional rights of use, visit http://www.opengeospatial.org/legal/
+|===
+
+[cols = "^", frame = "none"]
+|===
+|*Warning*
+|===
+
+This document is an OGC Policies and Procedures Document. The document is subject to change based on membership requirements and motions.
+
+[width = "50%", grid = "none"]
+|===
+|Document type:   	OGC® Policy
+|Document subtype:
+|Document stage:   	Draft
+|Document language: 	English
+|===
+
+<<<
+toc::[]
+
+<<<
+
+==	Preface and Background
+This document defines the Policies and Procedures by which the OGC Architecture Board (OAB) performs its mission. The OAB was established as part of the formal management and coordination structure of the Standards development, approval, and conflict adjudication process.
+
+OGC Standards documents are developed within the OGC Technical Committee (TC). Members of the TC Domain Working Groups (DWGs) and Standards Working Groups (SWGs) serve voluntarily and without compensation. The Standards developed within OGC represent a consensus of the broad expertise on the subject within the Consortium as well as those activities outside of OGC that have expressed an interest in participating in the development of the Standard.
+
+Since 1994, this collaborative effort has resulted in a robust set of Member approved and maintained Standards. These Standards represent the core of the OGC Standards Baseline. [lime line-through]#There are now tens of thousands of server implementations of OGC standards.#
+
+The OGC has a continued requirement for strong life cycle management and general alignment (or harmonization) of the Baseline. The current OGC TC Policies and Procedures contain elements of proper life cycle management and various existing Working Groups focus on elements of Standards alignment. The OGC Reference Model defines the technical framework within which all of the OGC Standards – current and evolving – fit.
+
+All of these activities represent elements of the baseline architecture for OGC Standards and related supporting documents. The OGC Architecture Board was formed to provide the structure and mechanism to review, document, and provide guidance related to the architecture of the Baseline, including life cycle guidance and governance.
+
+The OGC Architecture Board was formed in 2006 and the first meeting occurred in November 2006. In 2010, the Members agreed that the Architecture Board should also incorporate the role of conflict resolution previously the responsibility of the OGC Review Board. The revised entity is known as the OGC Architecture Board, hereafter in this document referred to as the “OAB.”
+
+==	Introduction: OGC Architecture Board (OAB)
+
+===	Mission of the OGC Architecture Board
+
+The mission of the OAB is to provide a forum within which Consortium-wide Standards architecture and life cycle management issues can be discussed and deliberated with the intent of providing guidance and recommendations to the TC and the Planning Committee (PC) on these issues. Specifically, the OAB works with the TC and the PC to ensure architecture consistency of the OGC Standards Baseline and provide guidance to the OGC Membership to ensure strong life cycle management of the OGC Standards Baseline and Policy Directives. In order to properly provide such guidance and perform the Governance functions as outlined below, the OAB can, at its discretion, evaluate current technology issues and identify gaps in the architecture that need to be responded to by the Membership.
+
+===	Terms and Definitions
+
+Most of the terms and definitions used in this document can be found in the OGC TC Policies and Procedures. However, in addition and for the purposes of this document, the following terms are defined.
+
+*Architecture*: For the purposes of this document, Architecture is the fundamental organization of a system embodied in its components and their relationships to each other, and to the environment, and the principles guiding its design and evolution. Within this context, the architecture implied by the OGC Standards Baseline will be the primary consideration of the OGC OAB.
+
+*Life Cycle Model*: A framework containing the processes, activities, and tasks involved in the development, operation, and maintenance of the system, which spans the life of the individual OGC Standards from the definition of its requirements to the termination of its use.
+
+*OGC Reference Model (ORM)*: The ORM describes a framework for the ongoing work of the OGC and our Standards and implementing interoperable solutions and applications for geospatial services, data, and applications.
+
+*OGC Standards Baseline*: The complete set of OGC Member approved Abstract Specifications, Standards including profiles and extensions, and Community Standards.
+
+NOTE: A role of the Standards Baseline is to determine consistency with Standards.
+
+NOTE: Documents in the Baseline are subject to the http://www.opengeospatial.org/ogc/policies/directives[Technical Committee Policy Directives].
+
+NOTE: Deprecated documents are not in the Standards Baseline.
+
+NOTE: Hereafter in this document the OGC Standards Baseline (also known as the OGC Technical Baseline) is referred to simply as “the Baseline.”
+
+*OGC Library*: The OGC Standards Baseline, OGC Best Practices, OGC Engineering Reports, OGC Technical Papers (and former OGC White Papers), OGC Discussion Papers, OGC Policies and Procedures, and the OGC Reference Model (ORM).
+
+===	Governance
+
+The OAB operates under the OGC Bylaws as approved by the OGC Board of Directors. The Bylaws establishes the OAB’s domain of operations.
+
+The OAB can recommend changes to the published architectural documents of the OGC, will approve Request For Comment (RFC) issuances prior to consideration by the full Membership, provide life cycle management guidance, provide architecture guidance for use by the Planning Committee in its technology deliberations, and provide recommendations regarding liaison activities with other standards organizations. Finally, the OAB shall be responsible for the review and recommendation for adoption to the Membership of a document [lime]#and supporting registered content# called the OGC Reference Model (ORM). This document shall also serve as the description of the Baseline of the OGC and will be used as the basis for guidance, decisions, and rulings of the OAB.
+
+To perform these duties, the OAB has a set of less formal procedures that facilitate the flow of actions between and during OGC meetings. It may also occasionally issue guidance documents about what it expects in technology submissions.
+
+===	Relation to OGC TC Policies and Procedures
+
+The OGC TC Policies and Procedures describe the operation and Standards adoption processes for the OGC. The TC Policies and Procedures [lime line-through]#contains Membership categories,# [lime]#defines# the organization [lime]#of the TC and subcommittees# and the procedure for adoption and revision of Standards. The OAB must synergistically interact with the TC. Therefore, the work of the OAB must be open and transparent to the entire OGC Membership.
+
+The OAB can provide guidance to the TC and its Working Groups regarding areas of Standards harmonization activity, gaps in the Baseline, guidance on life cycle management, and recommendations related to the ORM. Further, the OAB has the responsibility for evaluating any newly submitted [lime line-through]#RFC# [lime]#candidate Standard# and recommending, based on alignment with the Baseline, whether the submission should be further considered by the OGC Membership or should be returned to the submission team with guidance as to how to better align the submission with the Baseline and Policy Directives.
+
+As described in the TC [lime line-through]#Request for Comment (RFC)# [lime]#Standards approval# process, once a SWG or Community Standard submission team approves a candidate Standard for public comment, the candidate Standard is reviewed by the OAB before release to public.
+
+The candidate Standard cannot be released for public comment for vote until it is approved for release by the OAB. The OAB may request changes to be made to the candidate Standard and have that document returned to the OAB for further review.
+
+===	Relation of the OAB to the OGC PC
+
+The OAB also needs to collaborate with the PC. While the OAB does consider issues related to the Baseline architecture and alignment, the Planning Committee has final authority to vote for the adoption of a candidate Standard as an official OGC Standard.
+
+However, the PC may ask the OAB for architecture guidance related to a specific candidate Standard as part of their due diligence on any given adoption vote. The OAB may also proactively provide guidance and input to the Planning Committee regarding specific Baseline architecture or life cycle management issues that need to be discussed and acted on as related to the OGC TC Policies and Procedures.
+
+===	Relation of the OAB to the OGC Strategic Management Advisory Committee (SMAC)
+
+The OGC Strategic Member Advisory Committee (SMAC) has responsibility (i) To recommend areas of strategic opportunity for the Consortium; (ii) To recommend resource strategies in support of Consortium programs; and (iii) according to the requirements of the Strategic Members, to support the Innovation and Standards Programs with management and operational resources.
+
+Generally, the SMAC reviews activities of the OGC Innovation Program (IP) which are mainly sponsored by the SMAC members. The SMAC approves the IP Policies and Procedures.
+
+As there are no sponsors for Interoperability Experiments, the OAB evaluates the relevance and approves member proposed Interoperability Experiments in accordance with OGC IP Policies and Procedures.
+
+===	Relation of the OGC Technology Strategy
+
+The OGC Technology Strategy supports the strategic guidelines set forth by the Board of Directors and coordinates across all organizations and activities of the Consortium.  The Chief Technology [lime]#and Innovation# Officer [lime]#(CTIO)# is responsible to ensure coordination of the technology strategy.  The [lime line-through]#CTO chairs# [lime]#CTIO may participate directly in# the OAB and leads other activities for the purpose of review or coordination of the Consortium’s technology strategy.
+
+===	Summary
+
+The OAB is viewed as an integral and important component of the OGC Standards Development Process. Therefore, OAB Members may also be actively involved in various OGC Working Group meetings.
+
+==	Membership in the OAB
+
+===	Elected and Appointed Members
+
+There shall normally be seventeen members of the OAB.  Fifteen OAB members are from the OGC Membership as elected by the OGC TC with final approval by the OGC Board of Directors. Two OGC Staff representatives are appointed as OAB members.
+
+Elected members of the OAB represent themselves and not their organization.  There may be no more than one OAB member from any particular OGC Member organization.  If an OAB member changes organizations the OAB member must resign from the OAB [lime]#if their new organization is already represented in the OAB#.
+
+The OGC [lime line-through]#Chief Technology Officer (CTO)# [lime]#Chief Standards Officer (CSO)# is an appointed member of the OAB and shall act as Chair and facilitator of the OAB. The CSO appoints one additional OGC staff member to serve as a voting OGC staff member of the OGC Architecture Board. As appointed OAB members, there is no distinction between them and the other OAB members.
+
+[lime]#Because the CSO is also the Chair of both the TC and PC, the CSO may temporarily assign the OAB chair to another OAB member in the case where the CSO must advocate on behalf of the TC or PC and where that advocacy may be in conflict of interest with the OAB chair role. Such an assignment can be initiated by the CSO or any OAB member.#
+
+===	Obligations of Membership
+
+OAB members are expected to participate in OAB activities as defined in <<oab-procedures>>.  An OAB member that attends at least half of the OAB teleconferences, attends at least one OAB in-person meeting per year, and fulfills their OAB voting responsibilities shall be considered in “good standing.”  An OAB member in good standing may nominate another OAB member as proxy for meetings including teleconferences.  OAB members that fail to meet the good standing obligations may be asked by the OAB chair to resign after the chair consults with the OAB.
+
+An OAB member may voluntarily resign OAB membership at any time.
+
+Upon loss to the OAB of a member for any reason, a replacement must be chosen by election at the earliest reasonable opportunity. See <<special-elections>> below regarding special elections.
+
+===	Nomination for Election
+
+Nomination for the OAB requires the endorsements of 3 or more of the Member Representatives of the TC. An endorsement email to the TC Chair is sufficient.
+
+Self-nominations are allowed but still require written endorsement by at least two other Member representatives. A short résumé for each nominated candidate must be submitted to the TC Chair. These résumés should document the nominees experience in the OGC, experience related to systems architecture, and familiarity with the OGC Standards Baseline, Policy Directives, and OGC Reference Model. Either the nominee or a Member endorsing that nominee may submit the résumé.
+
+The closing date for nominations for OAB candidates shall be announced to the OGC Membership at least thirty days beforehand by email or at an OGC Technical Committee meeting and by email.
+
+[lime line-through]#At the closing date, the list of nominees is provided to the Planning Committee. The PC will validate the list of nominees to be candidates for the OAB. Then the vote on OAB candidates can begin by TC voting members.#
+
+===	OAB Elections
+
+Election for seats on the OAB is by Vote of OGC TC Members eligible to vote. Normal OGC electronic voting procedures will be used in the election of the OAB membership.
+
+Of the elected OAB members, five seats are elected each year, and each elected seat has a term of three years.
+
+If, at the closing date, there are no more candidates than seats available, all the candidates are deemed elected unopposed, and no election is held. If there are both full- and partial-term seats in an unopposed election, but more candidates than full-term seats, lots will be drawn to determine which candidates are assigned the full-term seats.
+
+[lime]#If there are more candidates than seats available, then an electronic vote is held and those candidates receiving the most votes will fill the available seats. Should any seats be partial-term, the elected members with the least number of votes will fill the partial-term seats.#
+
+[lime strike-through]#To get elected, the candidate has to be well known to the voters (either in person or by reputation). Canvassing helps, but ultimately people vote for someone they respect personally.#
+
+[[special-elections]]
+===	Special Elections
+
+From time to time an OAB member will resign from the OAB before the end of their elected term. In this event, the [lime line-through]#OAB Chair shall request that the# TC Chair [lime]#shall# initiate a special election. The special election will abide by the same rules and procedures as normal OAB elections except for the following conditions.
+
+* Term: The term for the elected individual will be for the balance of the term of the individual who resigned.
+
+* The closing date may be as short as 14 days (two weeks) following announcement of the special election by the TC Chair.
+
+If the term will be less than 6 months, there will not be a special election and the vacant OAB position shall remain so until the next normally scheduled OAB election.
+
+==	Role and Function of the Architecture Board
+
+===	OAB Functions in the OGC Bylaws
+
+The roles and responsibilities of the OAB as listed in this section implement the OAB Functions as listed in the OGC Bylaws.
+
+In summary the OAB Roles and Responsibilities cover these areas:
+
+*	Standards Development
+*	OGC Standards Roadmap
+*	Candidate Standard Reviews
+*	Standards Life Cycle Management
+*	Baseline Harmonization and Innovation
+*	OAB Review of ORM Development
+*	ORM used by OAB as guidance
+*	Work Item consistency
+*	Technology Trends
+*	Additional Responsibilities
+*	External Liaisons recommendations
+*	Interoperability Experiments approval
+*	Conflict Resolution and Appeals
+
+===	OAB Role in Standards Development
+
+*	*OGC Standards Roadmap*: Based on the ORM as well as on milestones from individual SWGs, the OAB will consider OGC-wide development with the intent of ensuring logical and consistent releases of new versions of OGC Standards. The OAB will also document and release high-level Roadmaps for use by the Membership.
+
+*	*RFC Reviews*: Before a SWG proceeds to an adoption vote, the OAB shall review the candidate Standard.  The OAB will check the candidate Standard for consistency with the Baseline and Policy Directives (except those policies given to the OGC Naming Authority).  This evaluation will occur in coordination with the submission team. A representative of the SWG must be prepared to attend an OAB meeting or teleconference in which the candidate Standard will be discussed. The OAB has the authority to return a candidate Standard to the SWG with a request to make changes before the candidate Standard is released for Public Comment. A SWG may request OAB review of a draft document prior to the required review preceding an adoption vote.
+
+*	*Standards Life Cycle Management*: The OAB can consider, discuss, and make recommendations for guidance related to proper and consistent life cycle management of all OGC Standards as related to the Baseline and Policy Directives. The OAB can make recommendations regarding changes to and maintenance of the various policies and procedures that govern the business of the Technical Committee.
+
+===	OAB Role in Baseline Harmonization and Innovation
+
+* *OAB Review of ORM Development*: The OAB shall be responsible for the review and recommendation for adoption by the TC of the ORM. This document describes the Baseline and a general roadmap for future baseline development.  Further, the ORM provides [lime strike-through]#a baseline and# guidance for OGC reference architecture work and [lime line-through]#provides the baseline for# OGC Innovation Program activities. The OAB shall not unilaterally change the ORM but can provide guidance as to the content of the ORM.
+
+* *ORM used by OAB as guidance*: The OAB shall use the ORM as [lime line-through]#its primary# [lime]#a source for# guidance for framing technical and architectural discussions.
+
+* *Work Item consistency*: The OAB can review other OGC Work Items as they are created for consistency with technical and architecture baselines and make change recommendations to the appropriate body.
+
+* *Technology Trends*: OGC must address the innovator’s dilemma of maintaining the current OGC Baseline while simultaneously developing Standards to support evolving and potentially disruptive technologies, community needs, and market trends. To support this, the OAB can monitor current technology issues, trends, and so forth as part of its mandate in order to identify technology gaps or issues related to the Baseline or with a candidate Standard [lime line-through]#that is part of an RFC submission#. This OAB Role supports the OGC Technology Strategy.
+
+===	Additional OAB Responsibilities
+
+* *External Liaisons recommendations*: The OAB can recommend new relationships with other standards bodies and can review existing liaison relationships with other standards bodies and organizations. Annex A has more information on the OGC and our liaison relationships with other Standard Developing Organizations and consortia.
+
+* *Interoperability Experiments approval*: The OAB will evaluate the relevance and consider approval of Member proposed Interoperability Experiments in accordance with OGC IP Policies and Procedures.
+
+* *Conflict Resolution and Appeals*: Disputes are possible at various stages in the OGC process. To the extent possible, OGC programs and supporting processes are designed so that compromises can be made and consensus achieved. However there are times when even the most reasonable and knowledgeable people are unable to agree. To achieve the goals of openness and fairness, such conflicts must be resolved by a process of open review and discussion. <<resolution-of-appeals>> in this document specifies the procedures that shall be followed to deal with procedural and technical issues that cannot be resolved through the normal processes whereby the OGC Standards Program, the OGC Innovation Program, and/or the OGC Compliance Program participants ordinarily reach consensus. [lime line-through]#For purposes of this document, a Working Group is defined as any subgroup of the Standards Program or any set of stakeholders (sponsors and participants) within the Interoperability Program.#
+
+[[oab-procedures]]
+==	OAB Procedures
+
+===	OAB Meetings Including Teleconferences
+
+The work of the OAB shall be performed using e-mail, the OGC Portal, teleconferences, face-to-face (F2F) meetings, and other means the OAB may choose. A special OAB e-mail reflector is used. OAB teleconferences will typically be held every two weeks. [lime line-through]#The teleconference schedule will be made available to all OGC Members.#
+
+OAB members are expected to participate in OGC Member Meetings, in OAB meetings including teleconferences, and review and comment on OGC Member documents to support OAB deliberations.
+
+F2F meetings of the OAB shall be announced at least 6 weeks in advance to the entire OGC Membership.
+
+There shall be OAB meetings co-located with the meetings of OGC TC.
+
+The extended notice period for OAB meetings is because OAB members can potentially lose their seats through non-attendance. The co-location requirement helps ensure cooperation between the OAB and the TC Working Groups, and lessens the travel load on OAB members.
+
+There are two types of OAB F2F Meetings: Open and Closed.
+
+*	Open F2F meetings are open to all OGC Members. Any OGC Member may ask questions of the OAB or provide technical information and input. Quite often an open meeting will provide information and discussion topics from the Closed OAB sessions. However, non-OAB members cannot vote on any issues or topics being discussed by the OAB.
+
+*	Closed OAB Meetings are for OAB members only and for invited guests. Discussions in closed OAB sessions are meant to be frank so that the OAB can develop guidance to be presented to and discussed by the full TC. Further, at closed meetings, SWGs shall provide overviews of candidate Standards that they feel ready for RFC. There is usually a closed OAB meeting at an OGC Member Meeting.
+
+All OAB teleconferences are closed meetings except for invited guests.
+
+===	Quorum, Proxies and Voting
+
+Quorum for any meeting of the OAB shall be more than half of the total number of current OAB members either attending or by proxy. Proxy for meeting attendance, including telecons, may be given to the OAB Chair by any OAB member unable to attend a meeting. Proxies are not counted towards an OAB member's attendance record.  Persistent proxies may be listed in the OAB project of the OGC Portal. Proxies are only valid if the member receiving the proxy is present.  Proxies cannot be passed to a proxy, i.e., they are not transitive.
+
+If there is quorum, then a simple majority of the votes by the OAB Members present at a meeting in person shall constitute a positive vote for all OAB Items and Issues.  Abstentions by those present are not counted in assessing the simple majority.
+
+Between meetings, votes may be conducted using electronic voting (e-voting).  OAB e-voting will be conducted in accordance with the e-voting process established for the TC.  OAB e-votes must be initiated by a motion in an OAB meeting including telecons.  Results of any e-voting must be announced at the subsequent OAB meeting.
+
+===	[lime]#OAB Notice of Review# [lime line-through]#Optimizing OAB Member Activity#
+
+An aim of the OAB Procedures is to be efficient in meeting the responsibilities of the OAB.  It is desirable that OAB Member expertise be aligned with specific topics that come before the OAB. [lime line-through]#To that end the OAB will conduct the following procedures.#
+
+[lime line-through]#*	A summary of the expertise of OAB members across the OAB Baseline will be maintained by the OAB chair.#
+
+[lime line-through]#*	OAB members will be asked to identify preferred relationship with a number of TC subgroups.  OAB members will be required to accept the IPR agreement for SWGs.  The OAB member designated as a lead contact to WG shall be indicated in the WG membership.#
+
+[lime line-through]#*	When a document is to be reviewed by the OAB, the Chair will request a subset of the OAB Membership to lead the review.#
+
+OAB members will be offered a minimum of two weeks to review any submitted document before an OAB motion is adopted concerning the document.
+[lime line-through]#These procedures for optimizing OAB activity will not be binding but rather shall serve to guide the efficient conduct of the OAB.#
+
+===	OAB Principles of Conduct
+
+Principles of conduct have been established for OGC.  The OGC Principles of Conduct shall also apply to the OAB.
+
+===	Types of OAB Guidance
+
+The OAB may produce short position papers and the OAB occasionally makes definitive statements regarding the Baseline based on the findings in these papers. Some statements may make recommendations to change the Baseline. Some statements address expectations for technology adoptions.
+
+*	OAB Position -- The stated position is a recommended approach for Standards adoption.
+
+*	OAB Policy -- The OAB requires the subject matter to be binding on all candidate Standard submissions. Deviations will usually result in rejection.
+
+*	OAB Architecture Finding -- The OAB directs that OGC architectural documents (the Baseline and the OGC Reference Model) be updated.
+
+[[resolution-of-appeals]]
+==	Resolution of Appeals
+
+The OAB has a role in the resolution of appeals.  This process provides an Appeals Process for Voluntary consensus standards bodies as defined by OMB Circular A-119 and the ANSI Essential Requirements.
+
+The OAB appeal process is established to address a failure of process occurring in any of the OGC Programs.  Only after Program-specific resolution processes have been executed, including working with the OGC staff manager of the specific Program, then a Member may declare that a process failure has occurred and may file an appeal to the OAB.
+
+Filing of an Appeal shall follow these requirements:
+
+*	Appeals must documented and include detailed and specific description of the facts of the dispute;
+*	Appeals must be initiated within two months of the public knowledge of the action or decision that is to be challenged;
+*	An appeal shall be sent to the OGC CEO; and
+*	The appeal will be posted in an OGC tracking database, assigned a unique identifier, and made available to all OGC Members via electronic media.
+
+After the OGC CEO confirms that Program specific process have been attempted to resolve the conflict, the CEO sends the appeal to the OAB.
+
+The OAB reviews the situation and attempts to resolve it in a manner of its own choosing and reports to the OGC Membership on the outcome of its review.  The OAB shall have the discretion to define the specific procedures they will follow in the process of making their decision.
+
+[lime]#Should the appeal be related to a TC or PC action, then the OAB Chair shall recuse themself and assign leadership of the appeal process to another OAB member. Similarly, if an OAB member is part of the action that resulted in an appeal, that member shall not participate in the appeal review process.#
+
+If circumstances warrant, the OAB may recommend that an OGC TC, PC or SMAC motion be modified. The OAB may also recommend an action to the respective Program manager or Chair, or make such other recommendations as it deems fit. The OAB may not, however, pre-empt the role of the OGC TC, PC, or SMAC by issuing a decision that only those committees are empowered to make.
+
+An OAB decision is final with respect to the question of whether or not the appropriate procedures have been followed.  In all cases a decision concerning the disposition of the dispute, and the communication of that decision to the parties involved, must be accomplished within a reasonable period of time.  Each appeal record shall include the source of the appeal, detailed and specific description of the facts of the dispute, and the OAB recommendation once completed.
+
+When the OAB is finished with discussion, guidance to all parties and documentation of the appeal, the OAB shall inform the OGC CEO and the OGC Board of Directors.
+
+==	Approval of these OAB Policy and Procedures
+
+The OAB Policies and Procedures (OAB PnP) contained in this document shall be routinely reviewed and may be revised.  New versions of the OAB PnP will be approved using the following process.
+
+1.	OAB creates a new version of PnP.
+2.	The revised OAB PnP is provided to the OGC TC for review.  The TC will be invited to review and provide comments.
+3.	OAB reviews comments from the TC and adjudicates as needed.  The OAB will revise the draft PnP as needed based on the adjudicated comments.
+4.	The OAB provides the revised PnP to the PC [lime line-through]#and SMAC# along with the adjudicated TC comments (including the original TC comments).
+5.	The PC [lime line-through]#and SMAC# may make additional comments and may reply to the OAB before considering a PC recommendation.
+6.	The PC [lime line-through]#and SMAC# may provide a recommendation to the OGC Board that the OGC Board approve the OAB PnP.
+7. [lime]#If the PC does not recommend approval of the OAB PnP, then the process starts over with a new OAB PnP document.#
+
+:!numbered:
+[[appendix]]
+== Annex A: Liaison Relationships
+
+The OGC finds it increasingly necessary to communicate and coordinate activities involving spatial [lime line-through]#web related# technologies [lime]#amongst other Standards Development Organizations or consortia#.  This coordination is useful in order to avoid overlap in work efforts and to manage interactions between organizations.  In cases where the mutual effort to communicate and coordinate activities is formalized, these relationships are generically referred to as "liaison relationships."
+
+[lime]#OAB members are expected to keep abreast of the work of other organizations and may recommend liaison relationships for further consideration by OGC membership.#
+
+[lime line-through]#Therefore, OGC communicates extensively with other organizations on issues relating to the development of Internet standards.  Part of this communication occurs in written form, known as "liaison statements". In order to ensure the delivery of liaison statements, as well as to enable other forms of communication, the OGC appoints a liaison manager to be responsible for the relationship with the other organization.  We normally speak of such a person as "the liaison" from the OGC to the other organization.#
+
+[lime line-through]#In general, a liaison relationship is most valuable when there are areas of technical development of mutual interest.  For the most part, Standard Developing Organizations would rather leverage existing work done by other organizations than recreate it (and would like the same done with respect to their own work).  Establishing a liaison relationship can provide the framework for ongoing communications to:#
+
+[lime line-through]#*	Prevent inadvertent duplication of effort, without obstructing either organization from pursuing its own mandate; and#
+[lime line-through]#*	Provide authoritative information of one organization's dependencies on the other's work.#
+
+[[appendix]]
+== Annex B: OGC Innovation Statement
+
+In 2014, the OGC Planning Committee endorsed the following statement.
+
+In order to simplify technical complexity and reduce implementation costs, the OGC strives to ensure harmonization within the OGC standards baseline. In an unchanging world harmonization would be easy.  However, given the realities of the diversity that comes about due to changing technology and markets, OGC must address the innovator’s dilemma of maintaining the current OGC standards baseline while simultaneously developing standards to support evolving and potentially disruptive technologies, community needs and market trends. The OGC must balance maintenance, adaptation and evolution of its standards and associated Best Practices in order to address technology change, market change, and the complexity of collaboration between different communities.
+
+To support this challenging environment, OGC, as supported by the OAB:
+
+*	Will encourage harmonization of its Standards;
+*	Will extend or adapt its present Standards Baseline, or work with its partners to adapt or extend their standards;
+*	May advance new Standards that overlap with or diverge from existing Standards, along with guidance regarding how to evaluate and select among these options;
+*	May develop harmonization techniques such as bridging, brokers, or facades to achieve interoperability within and across communities of interest;
+*	Will foster an environment that encourages fair consideration of all submissions.
+
+[[appendix]]
+== Annex C: Bibliography
+The following items are referenced in the foregoing sections of the OAB Policy and Procedures.
+
+*	OGC Bylaws
+**	Revised 4 April 2019
+**	https://portal.ogc.org/files/6947
+
+*	OGC Technical Committee Policies and Procedures
+**	Publication Date: 2019-06-03
+** https://docs.ogc.org/pol/05-020r27/05-020r27.html
+
+*	OGC Technical Committee Policy Directives
+**	https://www.ogc.org/ogc/policies/directives
+
+*	OGC Reference Model
+**	https://www.ogc.org/standards/orm
+
+*	OGC Innovation Program Policies and Procedures
+**	https://portal.ogc.org/files/?artifact_id=92756
+
+*	OGC Principles of Conduct
+**	https://www.ogc.org/ogc/policies/conduct
+
+*	OMB Circular A-119
+**	https://www.whitehouse.gov/wp-content/uploads/2017/11/Circular-119-1.pdf
+
+*	ANSI Essential Requirements
+**	https://www.ansi.org/american-national-standards/ans-introduction/essential-requirements
