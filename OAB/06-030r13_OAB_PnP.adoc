@@ -244,7 +244,7 @@ In summary the OAB Roles and Responsibilities cover these areas:
 
 ===	OAB Meetings Including Teleconferences
 
-The work of the OAB shall be performed using e-mail, the OGC Portal, teleconferences, face-to-face (F2F) meetings, and other means the OAB may choose. A special OAB e-mail reflector is used. OAB teleconferences will typically be held every two weeks. [lime line-through]#The teleconference schedule will be made available to all OGC Members.#
+The work of the OAB shall be performed using e-mail, the OGC Portal, teleconferences, face-to-face (F2F) meetings, and other means the OAB may choose. A special OAB e-mail reflector is used. OAB teleconferences will typically be held every two weeks. The teleconference schedule will be made available to all OGC Members, [lime]#but meeting connection details will be limited to OAB Members only.#
 
 OAB members are expected to participate in OGC Member Meetings, in OAB meetings including teleconferences, and review and comment on OGC Member documents to support OAB deliberations.
 
