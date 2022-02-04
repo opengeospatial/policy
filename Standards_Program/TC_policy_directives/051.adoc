@@ -1,0 +1,3 @@
+New capabilities (building blocks) to be inserted into OGC API – Common as new Parts (multiple building blocks can be included in a single Part).
+* New Parts can only be voted by the TC/PC after approval by all OGC API SWGs.
+* Movement of a building block from an approved OGC API Standard to OGC API - Common results in that building block being duplicated (present in both Standards) until a Major revision is made to the originating OGC API.
