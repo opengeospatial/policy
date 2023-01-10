@@ -1,2 +1,2 @@
 The current version of the document Template for all OGC Abstract and Implementation Standards is located at:
-https://portal.opengeospatial.org/files/?artifact_id=56777
+https://github.com/opengeospatial/templates
